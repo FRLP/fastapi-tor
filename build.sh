@@ -8,4 +8,4 @@ echo "ControlPort 0.0.0.0:9051" >> /etc/tor/torrc
 
 systemctl start tor
 
-uvicorn main:app --host 0.0.0.0 --port 8000
+pip install -r requirements.txt
